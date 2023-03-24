@@ -1,22 +1,45 @@
-# snake-game
-class 11 project -> new improved with college concepts
-\n
-\nI was looking at the final project I made when I was in grade 11.
-\nAt the time it felt like such a challenge. I needed to debug for a lot of time before it actually started working.
-\nLooking back 300 lines of code is basically nothing when you're a CS major.
-\nHere are some of the pros and cons of my design
-\n
-\nPros:
-\n
-\nSimple and clear code structure: The code is organized into functions that handle specific tasks, making it easier to understand and maintain.
-\nModular design: The game loop, snake movement, food generation, and other game aspects are separated into different functions, allowing for easier modification and expansion.
-\nAdditional features: The implementation includes a start menu, pause functionality, and restart option, which enhances the game experience.
-\n
-\nCons:
-\n
-\nGlobal variables: The code relies heavily on global variables, which can make it more challenging to maintain and debug. Encapsulating the game logic in classes would improve code organization and reduce the reliance on global variables.
-\nInefficient collision detection: The snakesnake() function checks for collisions between the snake's head and its body by iterating through the entire body. A more efficient approach would be to check for collisions only with the snake's head.
-\nLack of comments and documentation: The code lacks comments and documentation, which can make it difficult for others to understand and modify the code. Adding comments and docstrings would improve code readability.
-\nHard-coded values: The code contains hard-coded values for dimensions, colors, and positions. Using constants or configuration files would make the code more adaptable and easier to modify.
-\nInconsistent formatting: The code has inconsistent formatting (e.g., indentation, spacing, and naming conventions). Following a consistent style, such as the PEP 8 style guide, would improve code readability and maintainability.
+# Grade 11 Snake Game Project: Improved with College Concepts
+## Overview
+<br />This repository contains the original Snake game project created in Grade 11 and an improved version of the same game, incorporating college-level programming concepts. 
+<br />The game is implemented in Python using the Pygame library.
+<br />
+<br />Looking back at the original project, it seemed quite challenging at the time, requiring significant debugging effort to get it working. However, as a CS major, 300 lines of code now seem quite manageable. This README covers both the old and improved versions of the game.
 
+# Old Snake Game
+## Overview
+<br />This is a simple Snake game implementation in Python using the Pygame library. The game includes basic features like a start menu, pause functionality, and a restart option.
+
+## How to Run
+- Install Python 3.x on your system.
+- Install the Pygame library by running pip install pygame.
+- Download or clone the repository.
+- Run the snake_game.py script to start the game.
+
+## Features
+- Start menu
+- Pause functionality
+- Restart option
+- Simple collision detection
+- Score tracking
+# New Improved Snake Game
+## Overview
+<br />This is an improved version of the Snake game implemented in Python using the Pygame library. The game has been refactored and optimized to follow best practices and college-level programming concepts.
+
+## How to Run
+- Install Python 3.x on your system.
+- Install the Pygame library by running pip install pygame.
+- Download or clone the repository.
+- Run the improved_snake_game.py script to start the game.
+## Improvements
+- Encapsulation of game logic into classes
+- More efficient collision detection
+- Use of constants and configuration files
+- Consistent formatting and naming conventions
+- Added comments and documentation
+##Features
+- Start menu
+- Pause functionality
+- Restart option
+- Improved collision detection
+- Score tracking
+- Enhanced code organization and maintainability

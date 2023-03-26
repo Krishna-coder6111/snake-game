@@ -43,3 +43,5 @@
 - Improved collision detection
 - Score tracking
 - Enhanced code organization and maintainability
+## License
+This project is licensed under the MIT License.

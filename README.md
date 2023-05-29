@@ -4,6 +4,8 @@
 <br />The game is implemented in Python using the Pygame library.
 <br />
 <br />Looking back at the original project, it seemed quite challenging at the time, requiring significant debugging effort to get it working. However, as a CS major, 300 lines of code now seem quite manageable. This README covers both the old and improved versions of the game.
+<br />
+<br />Head over to my [Medium post](https://medium.com/@r2d2jedi44/how-i-improved-my-high-school-snake-game-with-college-level-programming-b152d4403381) to read about the motive and process I went through for this.
 
 # Old Snake Game
 ## Overview
